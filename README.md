@@ -15,10 +15,21 @@ Obteniéndose los siguientes resultados:
 
 La longitud de los elementos radiantes de una antena está directamente relacionada con la frecuencia de resonancia. Para una frecuencia de 869,525 MHz, pequeñas variaciones en la longitud del conductor pueden desplazar significativamente el punto de resonancia, afectando al coeficiente de reflexión (S11), a la eficiencia radiada y al ancho de banda útil. En condiciones ideales, estos ajustes se pueden comprobar mediante analizadores de redes vectoriales como el utilizado en esta prueba (NanoVNA). El modelo permite el aprendizaje en entornos educativos, experimentales o el desarrollo de prototipado rápido. Por ello, la posibilidad de ajustar la antena de forma manual añadiendo o eliminando segmentos conductores representa una ventaja considerable.
 
-El diseño propuesto se basa en una antena impresa sobre PCB, utilizando cobre como material conductor y el sustrato dieléctrico estándar de la placa como medio de soporte. La estructura incluye polos o brazos radiantes cuya longitud efectiva puede modificarse alargando o acortando el recorrido eléctrico mediante la soldadura de puentes entre secciones de cobre previamente separadas. Este método permite realizar un ajuste fino de la antena tras su fabricación, compensando las variaciones en el entorno de instalación (como su introducción en un tubo de PVC) o diferencias entre dispositivos. El modelo integra un conector SMA y la posibilidad de incluir un filtro de la fábrica Mouser.
-
-<img width="73" height="708" alt="image" src="https://github.com/user-attachments/assets/43e5c7ac-bd2e-4ddc-9335-2a80e2b03e76" />
-
 Además de la ajustabilidad, la integración de la antena en la propia PCB ofrece otras ventajas relevantes, como la reducción del tamaño total del dispositivo, la eliminación de conectores externos susceptibles a fallos mecánicos y una mayor reproducibilidad en la fabricación. Estas características resultan especialmente interesantes en redes Meshtastic, donde los nodos suelen instalarse en ubicaciones remotas y donde requieren una elevada fiabilidad operativa.
 
 Este proyecto aborda de manera integral el proceso de diseño, fabricación y ajuste de la antena, teniendo en cuenta aspectos fundamentales como la teoría básica de antenas, las características de propagación en la banda de 868 MHz, las limitaciones impuestas por el diseño en PCB y las normativas europeas aplicables a dispositivos de radiofrecuencia en bandas ISM. Asimismo, se analiza el impacto de la geometría de la antena y de los puntos de soldadura en el comportamiento eléctrico del sistema, evaluando cómo las modificaciones físicas influyen en el rendimiento final.
+
+El diseño propuesto se basa en una antena impresa sobre PCB, utilizando cobre como material conductor y el sustrato dieléctrico estándar de la placa como medio de soporte. La estructura incluye polos o brazos radiantes cuya longitud efectiva puede modificarse alargando o acortando el recorrido eléctrico mediante la soldadura de puentes entre secciones de cobre previamente separadas. Este método permite realizar un ajuste fino de la antena tras su fabricación, compensando las variaciones en el entorno de instalación (como su introducción en un tubo de PVC) o diferencias entre dispositivos. El modelo integra un conector SMA y la posibilidad de incluir un filtro de la fábrica Mouser.
+# Vista general de la PCB:
+<img width="73" height="708" alt="image" src="https://github.com/user-attachments/assets/43e5c7ac-bd2e-4ddc-9335-2a80e2b03e76" /> 
+
+# Vista de la zona superior de ajuste:
+<img width="367" height="626" alt="image" src="https://github.com/user-attachments/assets/899a4ff8-d661-4e8d-a0c3-fec76459001e" />
+
+# Vista de la zona inferior con el conector SMS y el filtro:
+<img width="474" height="570" alt="image" src="https://github.com/user-attachments/assets/a82397e6-b20c-4290-bb7c-e7ca83a7112d" />
+
+
+
+
+
